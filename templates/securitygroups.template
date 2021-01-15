@@ -131,6 +131,18 @@
                     },
                     {
                         "IpProtocol": "tcp",
+                        "FromPort": "0",
+                        "ToPort": 65535,
+                        "CidrIp": "10.186.148.53"
+                    },
+                    {
+                        "IpProtocol": "tcp",
+                        "FromPort": "0",
+                        "ToPort": "65535",
+                        "CidrIp": "10.186.5.11"
+                    },                    
+                    {
+                        "IpProtocol": "tcp",
                         "FromPort": 80,
                         "ToPort": 80,
                         "SourceSecurityGroupId": {
